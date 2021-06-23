@@ -29,7 +29,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     // js 执行优化
-    // this.mineBitcoin(1500);
+    this.mineBitcoin(1500);
   }
   mineBitcoin(duration) {
     const start = new Date().getTime();
